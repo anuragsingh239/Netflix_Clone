@@ -25,7 +25,7 @@ session_start();
                 <img class="header-brand" src="https://images.ctfassets.net/4cd45et68cgf/7LrExJ6PAj6MSIPkDyCO86/542b1dfabbf3959908f69be546879952/Netflix-Brand-Logo.png?w=684&h=456" alt="">
                 <ul class="main-nav">
                     <li class="nav-item active"><form>
-      <input type="button" onclick="window.location.href='index.php';" value="home" />
+      <input type="button" onclick="window.location.href='index.php';" value="Home" />
     </form></li>
                     <li class="nav-item"><form>
       <input type="button" onclick="window.location.href='https://www.imdb.com/list/ls051571010/';" value="Top Rated" />
@@ -35,6 +35,9 @@ session_start();
     </form></li>
                      <li class="nav-item"><form>
       <input type="button" onclick="window.location.href='about.html';" value="About Us" />
+    </form></li>
+    				 <li class="nav-item active"><form>
+      <input type="button" onclick="window.location.href='logout.php';" value="Logout" />
     </form></li>
                 </ul>
             </div>
@@ -57,7 +60,6 @@ session_start();
     <div class="movies-cont container" id="movies-cont">
     </div>
     <!-- movies sections end -->
-<a href="logout.php">Logout</a>
     
 </body>
 </html>
